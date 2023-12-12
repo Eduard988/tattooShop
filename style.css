@@ -1,0 +1,53 @@
+body {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.header {
+    background-color: #050402;
+    color: #FAF6F2;
+    width: 100%;
+}
+
+.header__content {
+    width: 1216px;
+    margin: 0 auto;
+}
+
+.header__up{
+    display: flex;
+}
+
+.header__contacts{
+    display: flex;
+    gap: 56px;
+}
+
+.header__tel{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header__link{
+    color: #FAF6F2;
+    font-family: Jost, serif;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.header__messengers{
+    display: flex;
+    gap: 10px;
+    color: #D0D0D0;
+}
+
+.header__messenger-link{
+    font-size: 12px;
+}
+
+.header__messenger-link:hover{
+    color: #BB8C5F;
+}
