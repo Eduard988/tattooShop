@@ -51,3 +51,39 @@ body {
 .header__messenger-link:hover{
     color: #BB8C5F;
 }
+.logotype__up {
+    color: #BB8C5F;
+    font-family: Forum;
+    font-size: 30px;
+    line-height: 130%; /* 39px */
+    text-transform: uppercase;
+    gap: 23px
+}
+.logotype__line {
+    stroke-width: 1px;
+    stroke: #BB8C5F;
+}
+.logotype__down {
+    color: #BB8C5F;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 21px */
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+.header__logo {
+    justify-content: center;
+}
+.header__user {
+    display: flex;
+    justify-content: flex-end;
+}
+.header__down {
+    display: flex;
+}
+.header__nav-list {
+    display: flex;
+    justify-content: flex-end;
+}
