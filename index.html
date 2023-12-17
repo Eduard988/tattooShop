@@ -40,18 +40,8 @@
                         <a href="mailto:mr.driskell@mail.ru">Mr.Driskell@mail.ru</a>
                     </div>
                 </div>
-                <div class="header__logo logotype">
-                    <div class="logotype__up">
-                        mr. driskell
-                    </div>
-                    <div class="logotype__line">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="192" height="6" viewBox="0 0 192 6" fill="none">
-                        <path d="M0.113249 3.00002L3 5.88677L5.88675 3.00002L3 0.113264L0.113249 3.00002ZM191.887 3L189 0.113248L186.113 3L189 5.88675L191.887 3ZM3 3.50002L189 3.5L189 2.5L3 2.50002L3 3.50002Z" fill="#BB8C5F"/>
-                        </svg>
-                    </div>
-                    <div class="logotype__down">
-                        Tattoo shop
-                    </div>
+                <div class="header__logo">
+                    <img src="./img/logotype.png" alt="logotype">
                 </div>
                 <div class="header__user">
                     <div class="header__basket">
@@ -75,6 +65,7 @@
                     </div>
                 </div>
             </div>
+            <div class="header__space"></div>
             <div class="header__down">
                 <div class="header__catalog">
                     Каталог
@@ -85,15 +76,18 @@
                     </svg>
                 </div>
                 <div class="header__search">
-                    Поиск
+                    <input  class="header__search-input" type="text" placeholder="Поиск">
+                    <div class="header__search-icon">
+                        <img src="./img/icon-search.svg" alt="Поиск">
+                    </div>
                 </div>
-                <ul class="header__nav-list">
-                    <li class="header__nav-item">Промокоды</li>
-                    <li class="header__nav-item">Скидки</li>
-                    <li class="header__nav-item">Помощь</li>
-                    <li class="header__nav-item">О нас</li>
-                    <li class="header__nav-item">Контакты</li>
-                </ul>
+                <div class="header__nav-list">
+                    <a class="header__nav-item" href="#">Промокоды</a>
+                    <a class="header__nav-item" href="#">Скидки</a>
+                    <a class="header__nav-item" href="#">Помощь</a>
+                    <a class="header__nav-item" href="#">О нас</a>
+                    <a class="header__nav-item" href="#">Контакты</a>
+                </div>
             </div>
         </div>
     </header>
