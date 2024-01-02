@@ -165,3 +165,42 @@ body {
 .header__nav-item:hover {
     color: #BB8C5F;
 }
+
+.footer {
+    position: relative;
+
+    background-color: #050402;
+    color: white;
+    padding-top: 139px
+}
+
+.footer__content {
+    max-width: 1216px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+}
+
+.footer__lside {
+
+}
+
+.footer__nav-list {
+    display: flex;
+    flex-direction: column;
+}
+.footer__line {
+    border-left: 1px solid #524336;
+    height: 90px;
+    position: relative;
+    top: 0;
+}
+.footer__nav-list2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
