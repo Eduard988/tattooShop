@@ -171,7 +171,7 @@ body {
 
     background-color: #050402;
     color: white;
-    padding-top: 139px
+    padding: 129px 395px 120px 352px;
 }
 
 .footer__content {
@@ -183,18 +183,28 @@ body {
 }
 
 .footer__lside {
+    display: flex;
+    gap: 71px;
 
 }
-
-.footer__nav-list {
+.footer__logo {
     display: flex;
     flex-direction: column;
+    gap: 52px;
 }
+.footer__privacy-policy{
+    white-space: nowrap;
+
+}
+.footer__nav-list {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+}
+
 .footer__line {
-    border-left: 1px solid #524336;
-    height: 90px;
-    position: relative;
-    top: 0;
+
 }
 .footer__nav-list2 {
     display: flex;
