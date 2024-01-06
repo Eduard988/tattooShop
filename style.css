@@ -172,14 +172,16 @@ body {
     background-color: #050402;
     color: white;
     padding: 129px 395px 120px 352px;
+    width: 100%;
 }
 
 .footer__content {
     max-width: 1216px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    gap: 208px
 }
 
 .footer__lside {
@@ -204,13 +206,31 @@ body {
 }
 
 .footer__line {
-
+    width: 1px;
+    height: 100%;
+    background-color: #524336;
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 .footer__nav-list2 {
     display: flex;
     flex-direction: column;
 }
+.footer__email {
+display: flex;
+gap: 14px;
+align-items: center;
+}
 
-
-
-
+.footer__tel {
+    display: flex;
+    gap: 25px;
+}
+.icon-chat{
+display: flex;
+gap: 12px;
+}
