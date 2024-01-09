@@ -168,10 +168,9 @@ body {
 
 .footer {
     position: relative;
-
     background-color: #050402;
     color: white;
-    padding: 129px 395px 120px 352px;
+    padding: 120px 0;
     width: 100%;
 }
 
@@ -189,15 +188,18 @@ body {
     gap: 71px;
 
 }
+
 .footer__logo {
     display: flex;
     flex-direction: column;
     gap: 52px;
 }
+
 .footer__privacy-policy{
     white-space: nowrap;
 
 }
+
 .footer__nav-list {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -233,9 +235,9 @@ body {
 }
 
 .footer__email {
-display: flex;
-gap: 14px;
-align-items: center;
+    display: flex;
+    gap: 14px;
+    align-items: center;
 }
 
 .phone-and-graficwork {
@@ -252,7 +254,24 @@ align-items: center;
     font-weight: 400;
     line-height: 150%; /* 30px */
 }
+
 .icon-chat{
-display: flex;
-gap: 12px;
+    display: flex;
+    gap: 12px;
+}
+
+@media (max-width: 1150px) {
+    .header__contacts {
+        gap: 10px;
+    }
+}
+@media (max-width: 1087px) {
+    .footer__content {
+        gap: 130px;
+    }
+}
+@media (max-width: 920px) {
+    .footer__content {
+        gap: 130px;
+    }
 }
