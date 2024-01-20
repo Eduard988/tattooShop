@@ -1,0 +1,84 @@
+.mold3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.close {
+    display: flex;
+    justify-content: right;
+}
+
+.thanksfororder {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.order {
+    display: flex;
+}
+
+.our-order {
+    color: #3E424B;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%
+}
+
+.order-number {
+    color: #BB8C5F;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.thanks {
+    color:  #BB8C5F;
+    font-family: Forum;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.call-for-us {
+    color: #3E424B;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 35px */
+}
+
+.to-back {
+    position: relative;
+    color: #FAF6F2;
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.back-the-main {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
+
+
