@@ -4,46 +4,40 @@ body {
     align-items: center;
     cursor: default;
     line-height: 1;
-    gap: 31px;
 }
+
+.forma {
+    background-color: #EEE;
+    width: 412px;
+    height: 362px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 967px;
+    font-size: 12px;
+    font-weight: 900;
+}
+
 .main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
 }
-
-.close {
-    display: flex;
-    justify-content: right;
-}
-
-button {
-    padding: 1em 2em; /* Расстояние от текста до края */
-    background-color: white; /* Цвет фона */
-    border: 0; /* Убираем рамку */
-}
-
-.code {
-    display: flex;
-    gap: 10px;
-}
-
-.write{
-    color: #3E424B;
-    text-align: center;
-    font-family: Jost;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
 
 .write-code {
     color: #3E424B;
     font-family: Jost;
-    font-size: 30px;
+    font-size: 29px;
     font-style: normal;
     font-weight: 700;
     line-height: 115%;
@@ -51,8 +45,9 @@ button {
 
 .code {
     display: flex;
+    gap: 8px;
+    padding-top: 2px;
 }
-
 
 .border1, .border2, .border3, .border4 {
     width: 40px;
@@ -63,15 +58,82 @@ button {
 }
 
 .border5 {
+    position: relative;
     width: 40px;
     height: 40px;
-    flex-shrink: 0;
     border: 2px solid #BB8C5F;
     background: #BB8C5F;
 }
 
+.ok {
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    color: #FAF6F2;
+    font-size: 20px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.write {
+    word-spacing: -2px;
+    color: #3E424B;
+    text-align: center;
+    font-family: Jost;
+    font-size: 17px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.write__number {
+    display: flex;
+    gap: 5px;
+    padding-left: 21px;
+    align-items: end;
+}
+
+.text-number {
+    color:  #3E424B;
+    font-style: normal;
+
+}
+.write__number-our {
+    color:  #3E424B;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 4px;
+}
+
+.text {
+    color:  #3E424B;
+    font-style: normal;
+
+}
+
+.not-have-code {
+    color: #BB8C5F;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
 .footer {
+    font-family: Jost;
     display: flex;
     gap: 20px;
+    padding: 28px 10px 10px 54px;
+    word-spacing: 3px;
+    font-size: 12px;
+    line-height: 1.3;
+}
 
+input {
+    padding-top: 4px;
+    width: 22px;
+    height: 22px;
+    accent-color: #BB8C5F;
 }
